@@ -23,8 +23,9 @@ dependencies {
 //    문자열을 다루는 다양한 유틸들
 //    IO와 threading 관련 함수들
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("org.springframework.boot:spring-boot-starter")
+    implementation("org.springframework.boot:spring-boot-starter-web")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
     testImplementation(kotlin("test"))
 }
 
